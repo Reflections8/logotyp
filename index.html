@@ -1,0 +1,1907 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+		<!-- Encoding -->
+		<meta charset="UTF-8">
+
+		<!-- Author -->
+		<meta name="author" content="Ruslan Feduleyev">
+
+		<!-- Viewport -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Title/Description -->
+		<title>Logotyp</title>
+		<meta name="description" content="Tokenization for real estate"/>
+
+		<!-- SlickSlider CDN -->
+		<link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+					integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+					crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+		<!-- Bootstrap CDN -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+					integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+		<!-- fonts.css -->
+		<link rel="stylesheet" href="assets/css/fonts.css">
+
+		<!-- normalize.css -->
+		<link rel="stylesheet" href="assets/css/normalize.css">
+
+		<!-- Global CSS file -->
+		<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+<!-- components/header -->
+<header class="header">
+		<div class="container">
+				<div class="grid-row">
+						<div class="header__inner">
+
+								<!-- Logo -->
+								<img src="components/header/img/logo.svg"
+										 alt="logo"
+										 class="header__inner-logo">
+
+								<!-- Social icons -->
+								<div class="header__inner-social">
+
+										<a href="#" class="header__inner-social-link">
+												<svg class="header__inner-social-link-svg"
+														 width="35"
+														 height="35"
+														 viewBox="0 0 35 35"
+														 fill="#19171D"
+														 xmlns="http://www.w3.org/2000/svg">
+														<circle cx="17.5" cy="17.5" r="17" stroke="#5F5F77" stroke-opacity="0.2"/>
+														<g clip-path="url(#clip0_70_357)">
+																<path d="M24.977 11.4669C24.9703 11.3689 24.935 11.2751 24.8753 11.1972C24.8157 11.1192 24.7344 11.0605 24.6416 11.0284C24.5489 10.9963 24.4487 10.9922 24.3536 11.0167C24.2586 11.0411 24.1728 11.093 24.107 11.1659C23.7801 11.5326 23.3544 11.7975 22.881 11.9289C22.2426 11.3312 21.4005 10.999 20.526 10.9999C20.0613 11.0001 19.6011 11.0919 19.1718 11.27C18.7426 11.4481 18.3526 11.709 18.0241 12.0378C17.6957 12.3667 17.4352 12.7569 17.2576 13.1864C17.08 13.6159 16.9887 14.0761 16.989 14.5409V14.9809C13.998 14.7499 12.4 12.4769 11.967 11.3249C11.9329 11.2336 11.8729 11.1542 11.7943 11.0966C11.7158 11.039 11.6221 11.0055 11.5247 11.0004C11.4274 10.9953 11.3308 11.0188 11.2466 11.0679C11.1624 11.117 11.0944 11.1897 11.051 11.2769C10.004 13.3729 9.843 15.4069 10.604 17.1389C11.27 18.6559 12.61 19.8639 14.51 20.6649C13.647 21.2759 12.194 21.9999 10.5 21.9999C10.3926 21.9997 10.2881 22.0342 10.2018 22.0981C10.1155 22.162 10.0521 22.2519 10.0209 22.3547C9.98976 22.4574 9.99248 22.5674 10.0287 22.6685C10.0649 22.7696 10.1327 22.8563 10.222 22.9159C11.847 23.9999 13.55 23.9999 15.132 23.9999H15.18C20.041 23.9999 23.98 20.0539 23.98 15.1879V14.7089C24.343 14.3389 24.626 13.9619 24.8 13.4729C24.993 12.9269 25.032 12.2949 24.977 11.4669Z"
+																			fill="#5F5F77"/>
+														</g>
+														<defs>
+																<clipPath id="clip0_70_357">
+																		<rect width="15" height="15" fill="white" transform="translate(10 10)"/>
+																</clipPath>
+														</defs>
+												</svg>
+										</a>
+
+										<a href="#" class="header__inner-social-link">
+												<svg class="header__inner-social-link-svg"
+														 width="35"
+														 height="35"
+														 viewBox="0 0 35 35"
+														 fill="#19171D"
+														 xmlns="http://www.w3.org/2000/svg">
+														<circle cx="17.5" cy="17.5" r="17" stroke="#5F5F77" stroke-opacity="0.2"/>
+														<g clip-path="url(#clip0_70_361)">
+																<path d="M10 17.5001C10.0001 16.038 10.4276 14.6079 11.2298 13.3856C12.032 12.1633 13.1739 11.2021 14.5152 10.6203C15.8564 10.0384 17.3385 9.86127 18.7791 10.1106C20.2197 10.36 21.5561 11.0249 22.6237 12.0237C23.6914 13.0226 24.4439 14.3116 24.7886 15.7324C25.1333 17.1533 25.0552 18.6438 24.5639 20.0209C24.0727 21.3979 23.1896 22.6013 22.0234 23.4831C20.8573 24.3649 19.4588 24.8866 18 24.9841V19.0001H20V18.0001H18V16.5001C18 16.1022 18.158 15.7207 18.4393 15.4394C18.7206 15.1581 19.1022 15.0001 19.5 15.0001H20V14.0001H19.5C18.837 14.0001 18.2011 14.2634 17.7322 14.7323C17.2634 15.2011 17 15.837 17 16.5001V18.0001H15V19.0001H17V24.9841C15.1015 24.8572 13.3223 24.0135 12.0225 22.624C10.7228 21.2344 9.99983 19.4027 10 17.5001Z"
+																			fill="#5F5F77"/>
+														</g>
+														<defs>
+																<clipPath id="clip0_70_361">
+																		<rect width="15" height="15" fill="white" transform="translate(10 10)"/>
+																</clipPath>
+														</defs>
+												</svg>
+
+										</a>
+
+										<a href="#" class="header__inner-social-link">
+												<svg class="header__inner-social-link-svg"
+														 width="35"
+														 height="35"
+														 viewBox="0 0 35 35"
+														 fill="#19171D"
+														 xmlns="http://www.w3.org/2000/svg">
+														<circle cx="17.5" cy="17.5" r="17" stroke="#5F5F77" stroke-opacity="0.2"/>
+														<g clip-path="url(#clip0_70_366)">
+																<path d="M24.9929 11.582C25.0072 11.4961 24.9988 11.408 24.9686 11.3263C24.9383 11.2447 24.8873 11.1724 24.8205 11.1165C24.7538 11.0606 24.6736 11.0232 24.5879 11.0078C24.5022 10.9925 24.414 10.9998 24.3319 11.029L10.3319 16.029C10.2397 16.0619 10.1591 16.1212 10.1002 16.1995C10.0413 16.2778 10.0068 16.3717 10.0008 16.4695C9.99484 16.5673 10.0177 16.6647 10.0667 16.7496C10.1156 16.8345 10.1883 16.9031 10.2759 16.947L14.2759 18.947C14.3548 18.9864 14.4426 19.0044 14.5306 18.9989C14.6186 18.9935 14.7036 18.9649 14.7769 18.916L18.0969 16.702L16.1099 19.188C16.0667 19.2421 16.0352 19.3046 16.0174 19.3715C15.9995 19.4385 15.9958 19.5084 16.0065 19.5768C16.0171 19.6453 16.0418 19.7108 16.0791 19.7691C16.1163 19.8275 16.1653 19.8775 16.2229 19.916L22.2229 23.916C22.2924 23.9622 22.3724 23.9903 22.4555 23.9976C22.5386 24.005 22.6222 23.9915 22.6987 23.9583C22.7753 23.9251 22.8423 23.8733 22.8937 23.8076C22.9451 23.7418 22.9792 23.6643 22.9929 23.582L24.9929 11.582Z"
+																			fill="#5F5F77"/>
+														</g>
+														<defs>
+																<clipPath id="clip0_70_366">
+																		<rect width="15" height="15" fill="white" transform="translate(10 10)"/>
+																</clipPath>
+														</defs>
+												</svg>
+
+										</a>
+
+								</div>
+
+								<!-- Navigation -->
+								<nav class="header__inner-nav">
+										<a href="#" class="header__inner-nav-item">
+												About Us
+										</a>
+										<a href="#" class="header__inner-nav-item">
+												NRE Token
+										</a>
+										<a href="#" class="header__inner-nav-item">
+												Roadmap
+										</a>
+										<a href="#" class="header__inner-nav-item">
+												New Real Estate
+										</a>
+										<a href="#" class="header__inner-nav-item">
+												FAQ
+										</a>
+								</nav>
+
+								<!-- End section -->
+								<div class="header__inner-endSection">
+										<!-- Select -->
+										<div class="header__inner-select">
+												<div class="header__inner-select-text">
+														ENG
+												</div>
+												<img src="components/header/img/arrow-down.svg"
+														 alt="arrow-down"
+														 class="header__inner-select-img">
+										</div>
+
+										<!-- common-ui/button -->
+										<a href="#" class="btn header__inner-endSection-btn">
+												<img src="assets/images/buttons/user.svg"
+														 alt="user"
+														 class="btn__img">
+												<span class="btn__text">
+													SIGN UP FREE
+												</span>
+
+												<span class="btn__after"></span>
+										</a>
+
+										<!-- <= 991px Burger icon -->
+										<div class="header__inner-endSection-burgerBox">
+												<span class="header__inner-endSection-burgerBox-span"></span>
+												<span class="header__inner-endSection-burgerBox-span"></span>
+												<span class="header__inner-endSection-burgerBox-span"></span>
+										</div>
+								</div>
+
+
+						</div>
+				</div>
+		</div>
+
+		<!-- <= 991px Burger menu -->
+		<div class="header__burgerMenu header__burgerMenuHidden">
+				<div class="container">
+						<div class="header__burgerMenu-content">
+
+								<!-- Social icons -->
+								<div class="header__inner-social header__burgerMenu-content-social">
+
+										<a href="#" class="header__inner-social-link">
+												<svg class="header__inner-social-link-svg"
+														 width="35"
+														 height="35"
+														 viewBox="0 0 35 35"
+														 fill="#19171D"
+														 xmlns="http://www.w3.org/2000/svg">
+														<circle cx="17.5" cy="17.5" r="17" stroke="#5F5F77" stroke-opacity="0.2"/>
+														<g clip-path="url(#clip0_70_357)">
+																<path d="M24.977 11.4669C24.9703 11.3689 24.935 11.2751 24.8753 11.1972C24.8157 11.1192 24.7344 11.0605 24.6416 11.0284C24.5489 10.9963 24.4487 10.9922 24.3536 11.0167C24.2586 11.0411 24.1728 11.093 24.107 11.1659C23.7801 11.5326 23.3544 11.7975 22.881 11.9289C22.2426 11.3312 21.4005 10.999 20.526 10.9999C20.0613 11.0001 19.6011 11.0919 19.1718 11.27C18.7426 11.4481 18.3526 11.709 18.0241 12.0378C17.6957 12.3667 17.4352 12.7569 17.2576 13.1864C17.08 13.6159 16.9887 14.0761 16.989 14.5409V14.9809C13.998 14.7499 12.4 12.4769 11.967 11.3249C11.9329 11.2336 11.8729 11.1542 11.7943 11.0966C11.7158 11.039 11.6221 11.0055 11.5247 11.0004C11.4274 10.9953 11.3308 11.0188 11.2466 11.0679C11.1624 11.117 11.0944 11.1897 11.051 11.2769C10.004 13.3729 9.843 15.4069 10.604 17.1389C11.27 18.6559 12.61 19.8639 14.51 20.6649C13.647 21.2759 12.194 21.9999 10.5 21.9999C10.3926 21.9997 10.2881 22.0342 10.2018 22.0981C10.1155 22.162 10.0521 22.2519 10.0209 22.3547C9.98976 22.4574 9.99248 22.5674 10.0287 22.6685C10.0649 22.7696 10.1327 22.8563 10.222 22.9159C11.847 23.9999 13.55 23.9999 15.132 23.9999H15.18C20.041 23.9999 23.98 20.0539 23.98 15.1879V14.7089C24.343 14.3389 24.626 13.9619 24.8 13.4729C24.993 12.9269 25.032 12.2949 24.977 11.4669Z"
+																			fill="#5F5F77"/>
+														</g>
+														<defs>
+																<clipPath id="clip0_70_357">
+																		<rect width="15" height="15" fill="white" transform="translate(10 10)"/>
+																</clipPath>
+														</defs>
+												</svg>
+										</a>
+
+										<a href="#" class="header__inner-social-link">
+												<svg class="header__inner-social-link-svg"
+														 width="35"
+														 height="35"
+														 viewBox="0 0 35 35"
+														 fill="#19171D"
+														 xmlns="http://www.w3.org/2000/svg">
+														<circle cx="17.5" cy="17.5" r="17" stroke="#5F5F77" stroke-opacity="0.2"/>
+														<g clip-path="url(#clip0_70_361)">
+																<path d="M10 17.5001C10.0001 16.038 10.4276 14.6079 11.2298 13.3856C12.032 12.1633 13.1739 11.2021 14.5152 10.6203C15.8564 10.0384 17.3385 9.86127 18.7791 10.1106C20.2197 10.36 21.5561 11.0249 22.6237 12.0237C23.6914 13.0226 24.4439 14.3116 24.7886 15.7324C25.1333 17.1533 25.0552 18.6438 24.5639 20.0209C24.0727 21.3979 23.1896 22.6013 22.0234 23.4831C20.8573 24.3649 19.4588 24.8866 18 24.9841V19.0001H20V18.0001H18V16.5001C18 16.1022 18.158 15.7207 18.4393 15.4394C18.7206 15.1581 19.1022 15.0001 19.5 15.0001H20V14.0001H19.5C18.837 14.0001 18.2011 14.2634 17.7322 14.7323C17.2634 15.2011 17 15.837 17 16.5001V18.0001H15V19.0001H17V24.9841C15.1015 24.8572 13.3223 24.0135 12.0225 22.624C10.7228 21.2344 9.99983 19.4027 10 17.5001Z"
+																			fill="#5F5F77"/>
+														</g>
+														<defs>
+																<clipPath id="clip0_70_361">
+																		<rect width="15" height="15" fill="white" transform="translate(10 10)"/>
+																</clipPath>
+														</defs>
+												</svg>
+
+										</a>
+
+										<a href="#" class="header__inner-social-link">
+												<svg class="header__inner-social-link-svg"
+														 width="35"
+														 height="35"
+														 viewBox="0 0 35 35"
+														 fill="#19171D"
+														 xmlns="http://www.w3.org/2000/svg">
+														<circle cx="17.5" cy="17.5" r="17" stroke="#5F5F77" stroke-opacity="0.2"/>
+														<g clip-path="url(#clip0_70_366)">
+																<path d="M24.9929 11.582C25.0072 11.4961 24.9988 11.408 24.9686 11.3263C24.9383 11.2447 24.8873 11.1724 24.8205 11.1165C24.7538 11.0606 24.6736 11.0232 24.5879 11.0078C24.5022 10.9925 24.414 10.9998 24.3319 11.029L10.3319 16.029C10.2397 16.0619 10.1591 16.1212 10.1002 16.1995C10.0413 16.2778 10.0068 16.3717 10.0008 16.4695C9.99484 16.5673 10.0177 16.6647 10.0667 16.7496C10.1156 16.8345 10.1883 16.9031 10.2759 16.947L14.2759 18.947C14.3548 18.9864 14.4426 19.0044 14.5306 18.9989C14.6186 18.9935 14.7036 18.9649 14.7769 18.916L18.0969 16.702L16.1099 19.188C16.0667 19.2421 16.0352 19.3046 16.0174 19.3715C15.9995 19.4385 15.9958 19.5084 16.0065 19.5768C16.0171 19.6453 16.0418 19.7108 16.0791 19.7691C16.1163 19.8275 16.1653 19.8775 16.2229 19.916L22.2229 23.916C22.2924 23.9622 22.3724 23.9903 22.4555 23.9976C22.5386 24.005 22.6222 23.9915 22.6987 23.9583C22.7753 23.9251 22.8423 23.8733 22.8937 23.8076C22.9451 23.7418 22.9792 23.6643 22.9929 23.582L24.9929 11.582Z"
+																			fill="#5F5F77"/>
+														</g>
+														<defs>
+																<clipPath id="clip0_70_366">
+																		<rect width="15" height="15" fill="white" transform="translate(10 10)"/>
+																</clipPath>
+														</defs>
+												</svg>
+
+										</a>
+
+								</div>
+
+								<!-- Navigation -->
+								<nav class="header__inner-nav header__burgerMenu-content-nav">
+										<a href="#" class="header__inner-nav-item">
+												About Us
+										</a>
+										<a href="#" class="header__inner-nav-item">
+												NRE Token
+										</a>
+										<a href="#" class="header__inner-nav-item">
+												Roadmap
+										</a>
+										<a href="#" class="header__inner-nav-item">
+												New Real Estate
+										</a>
+										<a href="#" class="header__inner-nav-item">
+												FAQ
+										</a>
+								</nav>
+
+								<!-- End section -->
+								<div class="header__inner-endSection header__burgerMenu-content-endSection">
+										<!-- Select -->
+										<div class="header__inner-select">
+												<div class="header__inner-select-text">
+														ENG
+												</div>
+												<img src="components/header/img/arrow-down.svg"
+														 alt="arrow-down"
+														 class="header__inner-select-img">
+										</div>
+
+										<!-- common-ui/button -->
+										<a href="#" class="btn header__inner-endSection-btn">
+												<img src="assets/images/buttons/user.svg"
+														 alt="user"
+														 class="btn__img">
+												<span class="btn__text">
+													SIGN UP FREE
+												</span>
+
+												<span class="btn__after"></span>
+										</a>
+								</div>
+						</div>
+				</div>
+		</div>
+</header>
+
+<main>
+
+		<!-- components/intro -->
+		<section class="intro">
+				<div class="container">
+						<div class="grid-row grid-row__intro">
+
+								<!-- Content -->
+								<div class="intro__content">
+
+										<!-- common-ui/skewed-suptitle -->
+										<div class="skewed-suptitle intro__content-suptitle">
+												<div class="skewed-suptitle-text">
+														Real Estate Investments starting from <strong>$1</strong>
+												</div>
+										</div>
+
+										<h1 class="intro__content-title">
+												Tokenization
+												<strong>for real estate</strong>
+										</h1>
+
+										<p class="intro__content-subtitle">
+												Businesses of all types — from startups to large enterprises — can use Blocksquare’s solutions
+												and APIs to digitize value of real estate properties, launch their investment.
+										</p>
+
+										<!-- common-ui/form-email -->
+										<form action="#"
+													class="form-email intro__content-form"
+													name="introForm">
+
+												<input type="email"
+															 class="form-email__input"
+															 placeholder="Your e-mail"
+															 required>
+
+												<!-- common-ui/button -->
+												<button type="submit" class="btn">
+														<img src="assets/images/buttons/arrow-right.svg"
+																 alt="arrow"
+																 class="btn__img">
+														<span class="btn__text">
+															JOIN WHITELIST
+														</span>
+
+														<span class="btn__after"></span>
+												</button>
+
+										</form>
+
+										<div class="intro__content-blocks">
+
+												<!-- common-ui/skewed-block -->
+												<div class="skewed-block intro__content-blocks-item">
+														<div class="skewed-block-imgWrapper">
+																<img src="assets/images/skewed-blocks/paper.svg"
+																		 alt="paper"
+																		 class="skewed-block-imgWrapper-img">
+														</div>
+
+														<div class="skewed-block-textWrapper">
+																<div class="skewed-block-textWrapper-text">
+																		White Paper
+																</div>
+																<img src="assets/images/skewed-blocks/arrow-right.svg"
+																		 alt="arrow-right"
+																		 class="skewed-block-textWrapper-img">
+														</div>
+												</div>
+
+												<!-- common-ui/skewed-block -->
+												<div class="skewed-block intro__content-blocks-item">
+														<div class="skewed-block-imgWrapper">
+																<img src="assets/images/skewed-blocks/one-paper.svg"
+																		 alt="paper"
+																		 class="skewed-block-imgWrapper-img">
+														</div>
+
+														<div class="skewed-block-textWrapper">
+																<div class="skewed-block-textWrapper-text">
+																		One Paper
+																</div>
+																<img src="assets/images/skewed-blocks/arrow-right.svg"
+																		 alt="arrow-right"
+																		 class="skewed-block-textWrapper-img">
+														</div>
+												</div>
+
+												<div class="intro__content-blocks-item intro__content-blocks-itemLast">
+														<img src="components/intro/img/curved-block.svg"
+																 alt="curved"
+																 class="intro__content-blocks-itemLast-img">
+												</div>
+
+
+										</div>
+
+								</div>
+
+								<!-- Slider -->
+								<div class="intro__slider">
+
+										<div class="intro__slider-itemContainer">
+												<!-- Item -->
+												<div class="intro__slider-item">
+														<img src="components/intro/img/slider/1-ready.png"
+																 alt="slide"
+																 class="intro__slider-item-img">
+
+														<div class="intro__slider-item-info">
+																<div class="intro__slider-item-info-content">
+																		<div class="intro__slider-item-info-content-header">
+
+																				<div class="intro__slider-item-info-content-header-title">
+																						ELITE HOUSE NAME
+																				</div>
+
+																				<img src="components/intro/img/slider/stars.svg"
+																						 alt="stars"
+																						 class="intro__slider-item-info-content-header-stars">
+																		</div>
+
+																		<div class="intro__slider-item-info-content-text">
+																				Businesses of all types — from startups to large enterprises — can use
+																				Blocksquare’s solutions and APIs to digitize value of real estate properties,
+																				launch their investment.
+																		</div>
+																</div>
+														</div>
+
+												</div>
+
+												<!-- Item -->
+												<div class="intro__slider-item">
+														<img src="components/intro/img/slider/2-ready.png"
+																 alt="slide"
+																 class="intro__slider-item-img">
+
+														<div class="intro__slider-item-info">
+																<div class="intro__slider-item-info-content">
+																		<div class="intro__slider-item-info-content-header">
+
+																				<div class="intro__slider-item-info-content-header-title">
+																						ELITE HOUSE NAME
+																				</div>
+
+																				<img src="components/intro/img/slider/stars.svg"
+																						 alt="stars"
+																						 class="intro__slider-item-info-content-header-stars">
+																		</div>
+
+																		<div class="intro__slider-item-info-content-text">
+																				Businesses of all types — from startups to large enterprises — can use
+																				Blocksquare’s solutions and APIs to digitize value of real estate properties,
+																				launch their investment.
+																		</div>
+																</div>
+														</div>
+
+												</div>
+
+												<!-- Item -->
+												<div class="intro__slider-item">
+														<img src="components/intro/img/slider/3-ready.png"
+																 alt="slide"
+																 class="intro__slider-item-img">
+
+														<div class="intro__slider-item-info">
+																<div class="intro__slider-item-info-content">
+																		<div class="intro__slider-item-info-content-header">
+
+																				<div class="intro__slider-item-info-content-header-title">
+																						ELITE HOUSE NAME
+																				</div>
+
+																				<img src="components/intro/img/slider/stars.svg"
+																						 alt="stars"
+																						 class="intro__slider-item-info-content-header-stars">
+																		</div>
+
+																		<div class="intro__slider-item-info-content-text">
+																				Businesses of all types — from startups to large enterprises — can use
+																				Blocksquare’s solutions and APIs to digitize value of real estate properties,
+																				launch their investment.
+																		</div>
+																</div>
+														</div>
+
+												</div>
+
+												<!-- Item -->
+												<div class="intro__slider-item">
+														<img src="components/intro/img/slider/4-ready.png"
+																 alt="slide"
+																 class="intro__slider-item-img">
+
+														<div class="intro__slider-item-info">
+																<div class="intro__slider-item-info-content">
+																		<div class="intro__slider-item-info-content-header">
+
+																				<div class="intro__slider-item-info-content-header-title">
+																						ELITE HOUSE NAME
+																				</div>
+
+																				<img src="components/intro/img/slider/stars.svg"
+																						 alt="stars"
+																						 class="intro__slider-item-info-content-header-stars">
+																		</div>
+
+																		<div class="intro__slider-item-info-content-text">
+																				Businesses of all types — from startups to large enterprises — can use
+																				Blocksquare’s solutions and APIs to digitize value of real estate properties,
+																				launch their investment.
+																		</div>
+																</div>
+														</div>
+
+												</div>
+										</div>
+
+										<div class="intro__slider-controls">
+
+												<svg class="intro__slider-controls-btn intro__slider-controls-prev" width="36" height="36"
+														 viewBox="0 0 36 36" fill="transparent"
+														 xmlns="http://www.w3.org/2000/svg">
+														<g opacity="0.7">
+																<circle cx="18" cy="18" r="17" stroke="#19171D" stroke-width="2"/>
+																<path d="M20 24L13 17.5L20 11" stroke="white" stroke-linecap="square"/>
+														</g>
+												</svg>
+
+												<svg class="intro__slider-controls-btn intro__slider-controls-next" width="36" height="36"
+														 viewBox="0 0 36 36" fill="transparent"
+														 xmlns="http://www.w3.org/2000/svg">
+														<circle cx="18" cy="18" r="17" transform="matrix(-1 0 0 1 36 0)" stroke="#19171D"
+																		stroke-width="2"/>
+														<path d="M16 24L23 17.5L16 11" stroke="white" stroke-linecap="square"/>
+												</svg>
+
+										</div>
+
+										<!-- Left rect -->
+										<img src="components/intro/img/bg-lines/slider-left-rect.svg"
+												 alt="rect"
+												 class="intro__slider-bgRect--Left">
+
+										<!-- Right rect -->
+										<img src="components/intro/img/bg-lines/slider-right-rect.svg"
+												 alt="rect"
+												 class="intro__slider-bgRect--Right">
+
+										<!-- Right full-height -->
+										<img src="components/intro/img/bg-lines/right-full-height.svg"
+												 alt="line"
+												 class="intro__slider-bgRect--RightFullHeight">
+								</div>
+
+
+						</div>
+
+						<div class="grid-row grid-row__introMobile">
+								<div class="intro__content-blocks intro__content-blocksMobile">
+
+										<!-- common-ui/skewed-block -->
+										<div class="skewed-block intro__content-blocks-item">
+												<div class="skewed-block-imgWrapper">
+														<img src="assets/images/skewed-blocks/paper.svg"
+																 alt="paper"
+																 class="skewed-block-imgWrapper-img">
+												</div>
+
+												<div class="skewed-block-textWrapper">
+														<div class="skewed-block-textWrapper-text">
+																White Paper
+														</div>
+														<img src="assets/images/skewed-blocks/arrow-right.svg"
+																 alt="arrow-right"
+																 class="skewed-block-textWrapper-img">
+												</div>
+										</div>
+
+										<!-- common-ui/skewed-block -->
+										<div class="skewed-block intro__content-blocks-item">
+												<div class="skewed-block-imgWrapper">
+														<img src="assets/images/skewed-blocks/one-paper.svg"
+																 alt="paper"
+																 class="skewed-block-imgWrapper-img">
+												</div>
+
+												<div class="skewed-block-textWrapper">
+														<div class="skewed-block-textWrapper-text">
+																One Paper
+														</div>
+														<img src="assets/images/skewed-blocks/arrow-right.svg"
+																 alt="arrow-right"
+																 class="skewed-block-textWrapper-img">
+												</div>
+										</div>
+
+								</div>
+						</div>
+				</div>
+
+				<!-- Line under header -->
+				<img src="components/intro/img/bg-lines/under-header.svg"
+						 alt="line"
+						 class="intro__bgLine--UnderHeader">
+
+				<!-- Right BG-line -->
+				<img src="components/intro/img/bg-lines/right.svg"
+						 alt="line"
+						 class="intro__bgLine--Right">
+
+				<!-- Line in left bottom corner -->
+				<img src="components/intro/img/bg-lines/right-bottom-corner.svg"
+						 alt="line"
+						 class="intro__bgLine--RightBottomCorner">
+
+		</section>
+
+		<!-- 1) Global white section (with 1 background) -->
+		<div class="global-white-section">
+
+				<!-- Left top corner -->
+<!--				<img src="assets/images/global-white-bg-left-top-corner.svg"-->
+<!--						 alt="corner"-->
+<!--						 class="global-white-section-cornerLeftTop">-->
+
+
+				<!-- Corner -->
+				<img src="assets/images/global-white-bg-corner.svg"
+						 alt="corner"
+						 class="global-white-section-corner">
+
+				<!-- Corner rect -->
+				<img src="assets/images/global-white-bg-rect.svg"
+						 alt="corner"
+						 class="global-white-section-cornerRect">
+
+				<!-- components/about -->
+				<section class="about-us">
+						<div class="container">
+								<div class="grid-row">
+
+										<!-- common-ui/section-header -->
+										<div class="section-header about-us__header">
+												<img src="assets/images/section-header/icon.svg"
+														 alt="squares"
+														 class="section-header__img">
+
+												<div class="section-header__info">
+														<div class="section-header__info-suptitle">
+																— PROJECT INFORMATION
+														</div>
+														<h2 class="section-header__info-title">
+																<strong>ABOUT</strong> US
+														</h2>
+												</div>
+										</div>
+
+								</div>
+
+								<div class="grid-row">
+
+										<!-- Title -->
+										<div class="about-us__info">
+												<div class="about-us__info-title">
+														Grow a digital Real Estate Portfolio
+												</div>
+
+												<div class="about-us__info-text">
+														We are a construction company aimed at revolutionizing real estate market with an addition
+														of blockchain technology.
+														Our goal is to allow everyone to invest in real estate starting with $1.
+												</div>
+										</div>
+
+								</div>
+
+								<div class="grid-row">
+
+										<!-- Cards -->
+										<div class="about-us__cards">
+
+												<!-- Item -->
+												<div class="about-us__cards-item">
+														<div class="about-us__cards-item-imgWrapper skewed-block-imgWrapper">
+																<img src="components/about-us/img/1.svg"
+																		 alt="paper"
+																		 class="skewed-block-imgWrapper-img">
+														</div>
+
+														<div class="about-us__cards-item-text">
+																12 years<br>
+																in construction
+														</div>
+												</div>
+
+												<!-- Item -->
+												<div class="about-us__cards-item">
+														<div class="about-us__cards-item-imgWrapper skewed-block-imgWrapper">
+																<img src="components/about-us/img/2.svg"
+																		 alt="paper"
+																		 class="skewed-block-imgWrapper-img">
+														</div>
+
+														<div class="about-us__cards-item-text">
+																6 years in real<br>
+																estate investments
+														</div>
+												</div>
+
+												<!-- Item -->
+												<div class="about-us__cards-item">
+														<div class="about-us__cards-item-imgWrapper skewed-block-imgWrapper">
+																<img src="components/about-us/img/3.svg"
+																		 alt="paper"
+																		 class="skewed-block-imgWrapper-img">
+														</div>
+
+														<div class="about-us__cards-item-text">
+																600+ managed <br>
+																properties
+														</div>
+												</div>
+
+												<!-- Item -->
+												<div class="about-us__cards-item">
+														<div class="about-us__cards-item-imgWrapper skewed-block-imgWrapper">
+																<img src="components/about-us/img/4.svg"
+																		 alt="paper"
+																		 class="skewed-block-imgWrapper-img">
+														</div>
+
+														<div class="about-us__cards-item-text">
+																2 succesful blockchain<br>
+																platforms released
+														</div>
+												</div>
+
+										</div>
+								</div>
+						</div>
+
+						<!-- Rect background -->
+						<img src="components/about-us/img/rect-bg.svg"
+								 alt="rect"
+								 class="about-us__bgRect">
+				</section>
+
+				<!-- components/token -->
+				<section class="token">
+						<div class="container">
+								<div class="grid-row">
+
+										<!-- Big image -->
+										<div class="token__imgWrapper">
+												<img src="components/token/img/token-2.png"
+														 alt="token"
+														 class="token__imgWrapper-img">
+
+												<!--												&lt;!&ndash; Rect background &ndash;&gt;-->
+												<!--												<img src="components/token/img/rect.svg"-->
+												<!--														 alt="rect"-->
+												<!--														 class="token__imgWrapper-bgRect">-->
+										</div>
+
+										<!-- Info -->
+										<div class="token__info">
+
+												<!-- common-ui/section-header -->
+												<div class="section-header token__info-header">
+														<img src="assets/images/section-header/icon.svg"
+																 alt="squares"
+																 class="section-header__img">
+
+														<div class="section-header__info">
+																<div class="section-header__info-suptitle">
+																		— BLOCKCHAIN TECHNOLOGY
+																</div>
+																<h2 class="section-header__info-title">
+																		<strong>NRE</strong> TOKEN
+																</h2>
+														</div>
+												</div>
+
+												<div class="token__info-text">
+														<span>New Real Estate (NRE)</span> is a utility token of our platform. Token integration
+														with construction companies and real estate investment funds and its initial staking
+														capabilities ensure robust tokenomics and its value-driven utility.
+												</div>
+
+												<!-- List -->
+												<div class="token__info-list">
+
+														<!-- Item -->
+														<div class="token__info-list-item">
+																<div class="token__info-list-item-key">
+																		<img src="components/token/img/1.svg"
+																				 alt="value"
+																				 class="token__info-list-item-key-img">
+
+																		<div class="token__info-list-item-key-title">
+																				Token Type:
+																		</div>
+																</div>
+
+																<div class="token__info-list-item-value">
+																		<div class="token__info-list-item-value-text">
+																				ERC20 Utility
+																		</div>
+																</div>
+														</div>
+
+														<!-- Item -->
+														<div class="token__info-list-item">
+																<div class="token__info-list-item-key">
+																		<img src="components/token/img/2.svg"
+																				 alt="value"
+																				 class="token__info-list-item-key-img">
+
+																		<div class="token__info-list-item-key-title">
+																				NRE Initial Price:
+																		</div>
+																</div>
+
+																<div class="token__info-list-item-value">
+																		<div class="token__info-list-item-value-text">
+																				$0.0001
+																		</div>
+																</div>
+														</div>
+
+														<!-- Item -->
+														<div class="token__info-list-item">
+																<div class="token__info-list-item-key">
+																		<img src="components/token/img/3.svg"
+																				 alt="value"
+																				 class="token__info-list-item-key-img">
+
+																		<div class="token__info-list-item-key-title">
+																				Total Supply:
+																		</div>
+																</div>
+
+																<div class="token__info-list-item-value">
+																		<div class="token__info-list-item-value-text">
+																				100,000,000 NRE
+																		</div>
+																</div>
+														</div>
+
+														<!-- Item -->
+														<div class="token__info-list-item">
+																<div class="token__info-list-item-key">
+																		<img src="components/token/img/4.svg"
+																				 alt="value"
+																				 class="token__info-list-item-key-img">
+
+																		<div class="token__info-list-item-key-title">
+																				Initial Market Cap:
+																		</div>
+																</div>
+
+																<div class="token__info-list-item-value">
+																		<div class="token__info-list-item-value-text">
+																				$5,000,000
+																		</div>
+																</div>
+														</div>
+												</div>
+
+										</div>
+								</div>
+						</div>
+				</section>
+
+				<!-- components/pie -->
+				<section class="pie">
+						<div class="container">
+								<div class="grid-row grid-row__pie">
+										<div class="pie__info">
+
+												<!-- List -->
+												<div class="pie__info-list">
+
+														<!-- Item -->
+														<div class="pie__info-list-item">
+																1. <span>Every quarter we will use 10%</span> of our profits to buyback NRE from
+																exchanges and reward stakers
+														</div>
+
+														<div class="pie__info-list-divider"></div>
+
+														<!-- Item -->
+														<div class="pie__info-list-item">
+																2. <span>NRE will allow construction and RE companies</span> to provide investent
+																contracts that can be entered by everyone starting from $1
+														</div>
+
+														<div class="pie__info-list-divider"></div>
+
+														<!-- Item -->
+														<div class="pie__info-list-item">
+																3. <span>NRE will be used</span> as a main utility token of New Real estate platform.
+														</div>
+												</div>
+
+												<!-- common-ui/form-email -->
+												<form action="#"
+															class="form-email pie__info-form"
+															name="pieForm">
+
+														<input type="email"
+																	 class="form-email__input pie__info-form-input"
+																	 placeholder="Your e-mail"
+																	 required>
+
+														<!-- common-ui/button -->
+														<button type="submit" class="btn">
+																<img src="assets/images/buttons/arrow-right.svg"
+																		 alt="arrow"
+																		 class="btn__img">
+																<span class="btn__text">
+															JOIN WHITELIST
+														</span>
+
+																<span class="btn__after"></span>
+														</button>
+
+												</form>
+										</div>
+
+										<div class="pie__imgWrapper">
+												<img src="components/pie/img/pie.svg"
+														 alt="pie"
+														 class="pie__imgWrapper-img">
+										</div>
+
+										<!-- Background line (left) -->
+										<img src="components/pie/img/bg-line.svg"
+												 alt="line"
+												 class="grid-row__pie-bgLine--Left">
+								</div>
+						</div>
+				</section>
+
+				<!-- components/buy -->
+				<div class="buy">
+						<div class="container">
+								<div class="grid-row">
+										<div class="buy__inner">
+
+												<!-- common-ui/skewed-suptitle -->
+												<div class="skewed-suptitle buy__inner-suptitle">
+														<div class="skewed-suptitle-text">
+																You can buy a NRE Token on:
+														</div>
+												</div>
+
+												<!-- Cards -->
+												<div class="buy__inner-cards">
+
+														<!-- Item -->
+														<div class="buy__inner-cards-item">
+																<img src="components/buy/img/card.svg"
+																		 alt="card"
+																		 class="buy__inner-cards-item-img">
+														</div>
+
+														<!-- Item -->
+														<div class="buy__inner-cards-item">
+																<img src="components/buy/img/card.svg"
+																		 alt="card"
+																		 class="buy__inner-cards-item-img">
+														</div>
+
+														<!-- Item (soon) -->
+														<div class="buy__inner-cards-item buy__inner-cards-itemSoon">
+																<div class="buy__inner-cards-itemSoon-text">
+																		<span>Soon</span>
+																</div>
+																<img src="components/buy/img/card-disabled.svg"
+																		 alt="card"
+																		 class="buy__inner-cards-item-img">
+														</div>
+
+														<!-- Item (soon)-->
+														<div class="buy__inner-cards-item buy__inner-cards-itemSoon">
+																<div class="buy__inner-cards-itemSoon-text">
+																		<span>Soon</span>
+																</div>
+																<img src="components/buy/img/card-disabled.svg"
+																		 alt="card"
+																		 class="buy__inner-cards-item-img">
+														</div>
+
+														<!-- Item (soon)-->
+														<div class="buy__inner-cards-item buy__inner-cards-itemSoon">
+																<div class="buy__inner-cards-itemSoon-text">
+																		<span>Soon</span>
+																</div>
+																<img src="components/buy/img/card-disabled.svg"
+																		 alt="card"
+																		 class="buy__inner-cards-item-img">
+														</div>
+												</div>
+
+										</div>
+								</div>
+						</div>
+				</div>
+		</div>
+
+		<!-- components/roadmap -->
+		<section class="roadmap">
+				<div class="container">
+
+						<!-- common-ui/section-header -->
+						<div class="section-header roadmap__header">
+								<img src="assets/images/section-header/icon-black-bg.svg"
+										 alt="squares"
+										 class="section-header__img">
+
+								<div class="section-header__info">
+										<div class="section-header__info-suptitle">
+												— OUR DEVELOPMENT
+										</div>
+										<h2 class="section-header__info-title roadmap__header-info-title">
+												<strong>ROAD</strong>MAP
+										</h2>
+								</div>
+						</div>
+
+						<div class="grid-row grid-row__roadmapSlider">
+								<div class="roadmap__sliderWrapper">
+										<div class="roadmap__slider">
+
+												<!-- Row (upper) -->
+												<div class="roadmap__slider-row">
+
+														<!-- Item (1) -->
+														<div class="roadmap__slider-row-item"
+																 data-roadmap-id="1">
+														<span>
+																NRE Token Pre-Sale ; Community growth
+														</span>
+
+																<img src="components/roadmap/img/1q.svg"
+																		 alt="1q"
+																		 class="roadmap__slider-row-item-img">
+														</div>
+
+														<!-- Item (empty)-->
+														<div class="roadmap__slider-row-itemEmpty"></div>
+
+														<!-- Item (3) -->
+														<div class="roadmap__slider-row-item"
+																 data-roadmap-id="3">
+														<span>
+																NRE Token Pre-Sale ; Community growth
+														</span>
+
+																<img src="components/roadmap/img/3q.svg"
+																		 alt="1q"
+																		 class="roadmap__slider-row-item-img">
+														</div>
+
+														<!-- Item (empty)-->
+														<div class="roadmap__slider-row-itemEmpty"></div>
+
+														<!-- Item (5) -->
+														<div class="roadmap__slider-row-item"
+																 data-roadmap-id="5">
+														<span>
+																New Real Estate platform Beta starting
+														</span>
+
+																<img src="components/roadmap/img/1q-2025.svg"
+																		 alt="1q"
+																		 class="roadmap__slider-row-item-img">
+														</div>
+
+														<!-- Item (empty)-->
+														<div class="roadmap__slider-row-itemEmpty"></div>
+
+														<!-- Item (7) -->
+														<div class="roadmap__slider-row-item"
+																 data-roadmap-id="7">
+														<span>
+																New Real Estate platform - 1.0 release
+														</span>
+
+																<img src="components/roadmap/img/3q-2025.svg"
+																		 alt="1q"
+																		 class="roadmap__slider-row-item-img">
+														</div>
+												</div>
+
+												<div class="roadmap__slider-divider"></div>
+
+												<!-- Row (lower) -->
+												<div class="roadmap__slider-row">
+
+														<!-- Item (empty)-->
+														<div class="roadmap__slider-row-itemEmpty"></div>
+
+														<!-- Item (2) -->
+														<div class="roadmap__slider-row-item"
+																 data-roadmap-id="2">
+														<span>
+																Start of NRE platform development; Additional RE investment contracts
+														</span>
+
+																<img src="components/roadmap/img/2q.svg"
+																		 alt="2q"
+																		 class="roadmap__slider-row-item-img">
+														</div>
+
+														<!-- Item (empty)-->
+														<div class="roadmap__slider-row-itemEmpty"></div>
+
+														<!-- Item (4) -->
+														<div class="roadmap__slider-row-item"
+																 data-roadmap-id="4">
+														<span>
+																Real Estate partnerships;  Connection of new partners
+														</span>
+
+																<img src="components/roadmap/img/4q.svg"
+																		 alt="4q"
+																		 class="roadmap__slider-row-item-img">
+														</div>
+
+														<!-- Item (empty)-->
+														<div class="roadmap__slider-row-itemEmpty"></div>
+
+														<!-- Item (6) -->
+														<div class="roadmap__slider-row-item"
+																 data-roadmap-id="6">
+														<span>
+																Adittional licences in EU and Singapour
+														</span>
+
+																<img src="components/roadmap/img/2q-2024.svg"
+																		 alt="4q"
+																		 class="roadmap__slider-row-item-img">
+
+														</div>
+
+												</div>
+
+										</div>
+
+										<div class="grid-row__roadmapSlider-gradient"></div>
+
+										<!-- Background curved image -->
+										<img src="components/roadmap/img/slider-bg.svg"
+												 alt="rect"
+												 class="roadmap__sliderWrapper-bgRect">
+								</div>
+
+								<!-- Bottom right line -->
+								<img src="components/roadmap/img/bg-lines/bottom-right.svg"
+										 alt="line"
+										 class="grid-row__roadmapSlider-bgLine">
+
+								<!-- Rect -->
+								<img src="components/roadmap/img/bg-lines/rect.svg"
+										 alt="line"
+										 class="grid-row__roadmapSlider-bgRect">
+						</div>
+
+						<div class="grid-row">
+								<div class="roadmap__social">
+										<div class="roadmap__social-text">
+												Subscribe and Follow our Development:
+										</div>
+
+										<div class="roadmap__social-icons">
+
+												<!-- Twitter -->
+												<svg class="roadmap__social-icons-svg" width="35" height="35" viewBox="0 0 35 35"
+														 fill="transparent" xmlns="http://www.w3.org/2000/svg">
+														<circle cx="17.5" cy="17.5" r="17" stroke="#736D76" stroke-opacity="0.2"/>
+														<g clip-path="url(#clip0_70_357)">
+																<path d="M24.977 11.4669C24.9703 11.3689 24.935 11.2751 24.8753 11.1972C24.8157 11.1192 24.7344 11.0605 24.6416 11.0284C24.5489 10.9963 24.4487 10.9922 24.3536 11.0167C24.2586 11.0411 24.1728 11.093 24.107 11.1659C23.7801 11.5326 23.3544 11.7975 22.881 11.9289C22.2426 11.3312 21.4005 10.999 20.526 10.9999C20.0613 11.0001 19.6011 11.0919 19.1718 11.27C18.7426 11.4481 18.3526 11.709 18.0241 12.0378C17.6957 12.3667 17.4352 12.7569 17.2576 13.1864C17.08 13.6159 16.9887 14.0761 16.989 14.5409V14.9809C13.998 14.7499 12.4 12.4769 11.967 11.3249C11.9329 11.2336 11.8729 11.1542 11.7943 11.0966C11.7158 11.039 11.6221 11.0055 11.5247 11.0004C11.4274 10.9953 11.3308 11.0188 11.2466 11.0679C11.1624 11.117 11.0944 11.1897 11.051 11.2769C10.004 13.3729 9.843 15.4069 10.604 17.1389C11.27 18.6559 12.61 19.8639 14.51 20.6649C13.647 21.2759 12.194 21.9999 10.5 21.9999C10.3926 21.9997 10.2881 22.0342 10.2018 22.0981C10.1155 22.162 10.0521 22.2519 10.0209 22.3547C9.98976 22.4574 9.99248 22.5674 10.0287 22.6685C10.0649 22.7696 10.1327 22.8563 10.222 22.9159C11.847 23.9999 13.55 23.9999 15.132 23.9999H15.18C20.041 23.9999 23.98 20.0539 23.98 15.1879V14.7089C24.343 14.3389 24.626 13.9619 24.8 13.4729C24.993 12.9269 25.032 12.2949 24.977 11.4669Z"
+																			fill="#DADADA"/>
+														</g>
+														<defs>
+																<clipPath id="clip0_70_357">
+																		<rect width="15" height="15" fill="white" transform="translate(10 10)"/>
+																</clipPath>
+														</defs>
+												</svg>
+
+												<!-- Facebook -->
+												<svg class="roadmap__social-icons-svg" width="35" height="35" viewBox="0 0 35 35"
+														 fill="transparent" xmlns="http://www.w3.org/2000/svg">
+														<circle cx="17.5" cy="17.5" r="17" stroke="#736D76" stroke-opacity="0.2"/>
+														<g clip-path="url(#clip0_70_361)">
+																<path d="M10 17.5001C10.0001 16.038 10.4276 14.6079 11.2298 13.3856C12.032 12.1633 13.1739 11.2021 14.5152 10.6203C15.8564 10.0384 17.3385 9.86127 18.7791 10.1106C20.2197 10.36 21.5561 11.0249 22.6237 12.0237C23.6914 13.0226 24.4439 14.3116 24.7886 15.7324C25.1333 17.1533 25.0552 18.6438 24.5639 20.0209C24.0727 21.3979 23.1896 22.6013 22.0234 23.4831C20.8573 24.3649 19.4588 24.8866 18 24.9841V19.0001H20V18.0001H18V16.5001C18 16.1022 18.158 15.7207 18.4393 15.4394C18.7206 15.1581 19.1022 15.0001 19.5 15.0001H20V14.0001H19.5C18.837 14.0001 18.2011 14.2634 17.7322 14.7323C17.2634 15.2011 17 15.837 17 16.5001V18.0001H15V19.0001H17V24.9841C15.1015 24.8572 13.3223 24.0135 12.0225 22.624C10.7228 21.2344 9.99983 19.4027 10 17.5001Z"
+																			fill="#DADADA"/>
+														</g>
+														<defs>
+																<clipPath id="clip0_70_361">
+																		<rect width="15" height="15" fill="white" transform="translate(10 10)"/>
+																</clipPath>
+														</defs>
+												</svg>
+
+												<!-- Telegram -->
+												<svg class="roadmap__social-icons-svg" width="35" height="35" viewBox="0 0 35 35"
+														 fill="transparent" xmlns="http://www.w3.org/2000/svg">
+														<circle cx="17.5" cy="17.5" r="17" stroke="#736D76" stroke-opacity="0.2"/>
+														<g clip-path="url(#clip0_70_366)">
+																<path d="M24.9929 11.582C25.0072 11.4961 24.9988 11.408 24.9686 11.3263C24.9383 11.2447 24.8873 11.1724 24.8205 11.1165C24.7538 11.0606 24.6736 11.0232 24.5879 11.0078C24.5022 10.9925 24.414 10.9998 24.3319 11.029L10.3319 16.029C10.2397 16.0619 10.1591 16.1212 10.1002 16.1995C10.0413 16.2778 10.0068 16.3717 10.0008 16.4695C9.99484 16.5673 10.0177 16.6647 10.0667 16.7496C10.1156 16.8345 10.1883 16.9031 10.2759 16.947L14.2759 18.947C14.3548 18.9864 14.4426 19.0044 14.5306 18.9989C14.6186 18.9935 14.7036 18.9649 14.7769 18.916L18.0969 16.702L16.1099 19.188C16.0667 19.2421 16.0352 19.3046 16.0174 19.3715C15.9995 19.4385 15.9958 19.5084 16.0065 19.5768C16.0171 19.6453 16.0418 19.7108 16.0791 19.7691C16.1163 19.8275 16.1653 19.8775 16.2229 19.916L22.2229 23.916C22.2924 23.9622 22.3724 23.9903 22.4555 23.9976C22.5386 24.005 22.6222 23.9915 22.6987 23.9583C22.7753 23.9251 22.8423 23.8733 22.8937 23.8076C22.9451 23.7418 22.9792 23.6643 22.9929 23.582L24.9929 11.582Z"
+																			fill="#DADADA"/>
+														</g>
+														<defs>
+																<clipPath id="clip0_70_366">
+																		<rect width="15" height="15" fill="white" transform="translate(10 10)"/>
+																</clipPath>
+														</defs>
+												</svg>
+
+										</div>
+
+										<img src="components/roadmap/img/social-bg.svg"
+												 alt="bg"
+												 class="roadmap__social-bg">
+								</div>
+						</div>
+				</div>
+
+				<!-- Top left line -->
+				<img src="components/roadmap/img/bg-lines/top-left.svg"
+						 alt="line"
+						 class="roadmap__bgLine-topLeft">
+		</section>
+
+		<!-- 2) Global column section (with 1 background ) -->
+		<div class="global-column-section">
+
+				<!-- components/platform -->
+				<section class="platform">
+						<div class="container">
+								<div class="grid-row">
+
+										<!-- Platform info -->
+										<div class="platform__info">
+
+												<!-- common-ui/section-header -->
+												<div class="section-header platform__info-header">
+														<img src="assets/images/section-header/icon.svg"
+																 alt="squares"
+																 class="section-header__img">
+
+														<div class="section-header__info">
+																<div class="section-header__info-suptitle">
+																		— CONVENIENT INVESTMENT
+																</div>
+																<h2 class="section-header__info-title">
+																		<strong>OUR</strong> PLATFORM
+																</h2>
+														</div>
+												</div>
+
+												<div class="platform__info-text">
+														The New Real Estate platform offers a comprehensive solution to the challenges faced by the
+														traditional real estate market. It leverages blockchain technology to introduce
+														transparency, accessibility, and enhanced liquidity for investors.
+												</div>
+
+												<!-- Cards -->
+												<div class="platform__info-cards">
+
+														<!-- Item -->
+														<div class="platform__info-cards-item">
+
+																<img src="components/platform/img/cards/1.svg"
+																		 alt="card"
+																		 class="platform__info-cards-item-img">
+
+																<div class="platform__info-cards-item-text">
+																		Tokenization of Real Estate Assets
+																</div>
+														</div>
+
+														<!-- Item -->
+														<div class="platform__info-cards-item">
+
+																<img src="components/platform/img/cards/2.svg"
+																		 alt="card"
+																		 class="platform__info-cards-item-img">
+
+																<div class="platform__info-cards-item-text">
+																		Investment <br>
+																		Contracts
+																</div>
+														</div>
+
+														<!-- Item -->
+														<div class="platform__info-cards-item">
+
+																<img src="components/platform/img/cards/3.svg"
+																		 alt="card"
+																		 class="platform__info-cards-item-img">
+
+																<div class="platform__info-cards-item-text">
+																		Staking and Reward Program
+																</div>
+														</div>
+
+														<!-- Item -->
+														<div class="platform__info-cards-item">
+
+																<img src="components/platform/img/cards/4.svg"
+																		 alt="card"
+																		 class="platform__info-cards-item-img">
+
+																<div class="platform__info-cards-item-text">
+																		Utility Token<br>
+																		Integration
+																</div>
+														</div>
+												</div>
+
+
+										</div>
+
+										<!-- Platform images -->
+										<div class="platform__imgWrapper">
+												<img src="components/platform/img/img.png"
+														 alt="img"
+														 class="platform__imgWrapper-img">
+
+												<img src="components/platform/img/drawing.svg"
+														 alt="drawing"
+														 class="platform__imgWrapper-bgImg">
+
+												<!-- Background rect -->
+												<img src="components/platform/img/bg-rect.svg"
+														 alt="rect"
+														 class="platform__imgWrapper-bgRect">
+										</div>
+								</div>
+						</div>
+				</section>
+
+				<!-- components/faq -->
+				<section class="faq">
+
+						<!-- Line -->
+						<img src="components/faq/img/bg-line.svg"
+								 alt="line"
+								 class="faq__bgLine">
+
+						<div class="container">
+								<h2 class="faq__title">
+										Frequently Asked Questions
+								</h2>
+
+								<div class="grid-row">
+										<div class="faq__accordionsSection">
+												<!-- Accordion -->
+												<div class="accordion faq__accordion" id="accordionExample">
+
+														<!-- Item -->
+														<div class="accordion-item">
+																<h2 class="accordion-header" id="headingOne">
+																		<button class="accordion-button" type="button" data-bs-toggle="collapse"
+																						data-bs-target="#collapseOne" aria-expanded="true"
+																						aria-controls="collapseOne">
+																				<img src="components/faq/img/icon.svg"
+																						 alt="icon"
+																						 class="accordion-button-icon">
+																				<span class="accordion-button-text">
+																						What is the Mission of name Foundation?
+																				</span>
+																		</button>
+																</h2>
+																<div id="collapseOne" class="accordion-collapse collapse show"
+																		 aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+																		<div class="accordion-body">
+																				We are a construction company aimed at revolutionizing real estate market with
+																				an addition of blockchain technology. Our goal is to allow everyone to invest in
+																				real estate starting with $1. Our goal is to allow everyone to invest in real
+																				estate starting with $1.Our goal is to allow everyone to invest in real estate
+																				starting with $1.
+																		</div>
+																</div>
+														</div>
+
+														<!-- Item -->
+														<div class="accordion-item">
+																<h2 class="accordion-header" id="headingTwo">
+																		<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+																						data-bs-target="#collapseTwo" aria-expanded="false"
+																						aria-controls="collapseTwo">
+																				<img src="components/faq/img/icon.svg"
+																						 alt="icon"
+																						 class="accordion-button-icon">
+																				<span class="accordion-button-text">
+																						Can I use my Metamask wallet?
+																				</span>
+																		</button>
+																</h2>
+																<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+																		 data-bs-parent="#accordionExample">
+																		<div class="accordion-body">
+																				We are a construction company aimed at revolutionizing real estate market with
+																				an addition of blockchain technology. Our goal is to allow everyone to invest in
+																				real estate starting with $1. Our goal is to allow everyone to invest in real
+																				estate starting with $1.Our goal is to allow everyone to invest in real estate
+																				starting with $1.
+																		</div>
+																</div>
+														</div>
+
+														<!-- Item -->
+														<div class="accordion-item">
+																<h2 class="accordion-header" id="headingThree">
+																		<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+																						data-bs-target="#collapseThree" aria-expanded="false"
+																						aria-controls="collapseThree">
+																				<img src="components/faq/img/icon.svg"
+																						 alt="icon"
+																						 class="accordion-button-icon">
+																				<span class="accordion-button-text">
+																						What is the Mission of name Foundation?
+																				</span>
+																		</button>
+																</h2>
+																<div id="collapseThree" class="accordion-collapse collapse"
+																		 aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+																		<div class="accordion-body">
+																				We are a construction company aimed at revolutionizing real estate market with
+																				an addition of blockchain technology. Our goal is to allow everyone to invest in
+																				real estate starting with $1. Our goal is to allow everyone to invest in real
+																				estate starting with $1.Our goal is to allow everyone to invest in real estate
+																				starting with $1.
+																		</div>
+																</div>
+														</div>
+
+														<!-- Item -->
+														<div class="accordion-item">
+																<h2 class="accordion-header" id="headingFour">
+																		<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+																						data-bs-target="#collapseFour" aria-expanded="false"
+																						aria-controls="collapseFour">
+																				<img src="components/faq/img/icon.svg"
+																						 alt="icon"
+																						 class="accordion-button-icon">
+																				<span class="accordion-button-text">
+																						What is the Mission of name Foundation?
+																				</span>
+																		</button>
+																</h2>
+																<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+																		 data-bs-parent="#accordionExample">
+																		<div class="accordion-body">
+																				We are a construction company aimed at revolutionizing real estate market with
+																				an addition of blockchain technology. Our goal is to allow everyone to invest in
+																				real estate starting with $1. Our goal is to allow everyone to invest in real
+																				estate starting with $1.Our goal is to allow everyone to invest in real estate
+																				starting with $1.
+																		</div>
+																</div>
+														</div>
+												</div>
+
+												<!-- Accordion -->
+												<div class="accordion faq__accordion" id="accordionExample2">
+
+														<!-- Item -->
+														<div class="accordion-item">
+																<h2 class="accordion-header" id="headingOne2">
+																		<button class="accordion-button" type="button" data-bs-toggle="collapse"
+																						data-bs-target="#collapseOne2" aria-expanded="true"
+																						aria-controls="collapseOne2">
+																				<img src="components/faq/img/icon.svg"
+																						 alt="icon"
+																						 class="accordion-button-icon">
+																				<span class="accordion-button-text">
+																						What is the Mission of name Foundation?
+																				</span>
+																		</button>
+																</h2>
+																<div id="collapseOne2" class="accordion-collapse collapse show"
+																		 aria-labelledby="headingOne2" data-bs-parent="#accordionExample2">
+																		<div class="accordion-body">
+																				We are a construction company aimed at revolutionizing real estate market with
+																				an addition of blockchain technology. Our goal is to allow everyone to invest in
+																				real estate starting with $1. Our goal is to allow everyone to invest in real
+																				estate starting with $1.Our goal is to allow everyone to invest in real estate
+																				starting with $1.
+																		</div>
+																</div>
+														</div>
+
+														<!-- Item -->
+														<div class="accordion-item">
+																<h2 class="accordion-header" id="headingTwo2">
+																		<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+																						data-bs-target="#collapseTwo2" aria-expanded="false"
+																						aria-controls="collapseTwo2">
+																				<img src="components/faq/img/icon.svg"
+																						 alt="icon"
+																						 class="accordion-button-icon">
+																				<span class="accordion-button-text">
+																						Can I use my Metamask wallet?
+																				</span>
+																		</button>
+																</h2>
+																<div id="collapseTwo2" class="accordion-collapse collapse" aria-labelledby="headingTwo2"
+																		 data-bs-parent="#accordionExample2">
+																		<div class="accordion-body">
+																				We are a construction company aimed at revolutionizing real estate market with
+																				an addition of blockchain technology. Our goal is to allow everyone to invest in
+																				real estate starting with $1. Our goal is to allow everyone to invest in real
+																				estate starting with $1.Our goal is to allow everyone to invest in real estate
+																				starting with $1.
+																		</div>
+																</div>
+														</div>
+
+														<!-- Item -->
+														<div class="accordion-item">
+																<h2 class="accordion-header" id="headingThree2">
+																		<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+																						data-bs-target="#collapseThree2" aria-expanded="false"
+																						aria-controls="collapseThree2">
+																				<img src="components/faq/img/icon.svg"
+																						 alt="icon"
+																						 class="accordion-button-icon">
+																				<span class="accordion-button-text">
+																						What is the Mission of name Foundation?
+																				</span>
+																		</button>
+																</h2>
+																<div id="collapseThree2" class="accordion-collapse collapse"
+																		 aria-labelledby="headingThree2" data-bs-parent="#accordionExample2">
+																		<div class="accordion-body">
+																				We are a construction company aimed at revolutionizing real estate market with
+																				an addition of blockchain technology. Our goal is to allow everyone to invest in
+																				real estate starting with $1. Our goal is to allow everyone to invest in real
+																				estate starting with $1.Our goal is to allow everyone to invest in real estate
+																				starting with $1.
+																		</div>
+																</div>
+														</div>
+
+														<!-- Item -->
+														<div class="accordion-item">
+																<h2 class="accordion-header" id="headingFour2">
+																		<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+																						data-bs-target="#collapseFour2" aria-expanded="false"
+																						aria-controls="collapseFour2">
+																				<img src="components/faq/img/icon.svg"
+																						 alt="icon"
+																						 class="accordion-button-icon">
+																				<span class="accordion-button-text">
+																						What is the Mission of name Foundation?
+																				</span>
+																		</button>
+																</h2>
+																<div id="collapseFour2" class="accordion-collapse collapse"
+																		 aria-labelledby="headingFour2" data-bs-parent="#accordionExample2">
+																		<div class="accordion-body">
+																				We are a construction company aimed at revolutionizing real estate market with
+																				an addition of blockchain technology. Our goal is to allow everyone to invest in
+																				real estate starting with $1. Our goal is to allow everyone to invest in real
+																				estate starting with $1.Our goal is to allow everyone to invest in real estate
+																				starting with $1.
+																		</div>
+																</div>
+														</div>
+												</div>
+										</div>
+								</div>
+
+								<div class="grid-row">
+										<div class="faq__formWrapper">
+												<div class="faq__formWrapper-content">
+
+														<div class="faq__formWrapper-content-text">
+																Subscribe To Our Newsletter:
+														</div>
+
+														<!-- common-ui/form-email -->
+														<form action="#"
+																	class="form-email faq__formWrapper-content-form"
+																	name="faqForm">
+
+																<input type="email"
+																			 class="form-email__input"
+																			 placeholder="Your e-mail"
+																			 required>
+
+																<!-- common-ui/button -->
+																<button type="submit" class="btn">
+																		<img src="assets/images/buttons/mail.svg"
+																				 alt="arrow"
+																				 class="btn__img">
+																		<span class="btn__text">
+															SUBSCRIBE
+														</span>
+
+																		<span class="btn__after"></span>
+																</button>
+
+														</form>
+												</div>
+										</div>
+								</div>
+						</div>
+				</section>
+
+				<!-- Background rect -->
+				<img src="assets/images/global-column-bg-rect.svg"
+						 alt="column"
+						 class="global-column-section-rectBg">
+
+				<!-- Column -->
+				<img src="assets/images/column.png"
+						 alt="column"
+						 class="global-column-section-columnBg">
+
+				<!-- Corner -->
+				<img src="assets/images/global-white-bg-corner.svg"
+						 alt="column"
+						 class="global-column-section-corner">
+
+		</div>
+
+</main>
+
+<footer class="footer">
+		<div class="container">
+
+				<div class="grid-row">
+						<!-- Content -->
+						<div class="footer__content">
+
+								<!-- Header -->
+								<div class="footer__content-header">
+										<!-- Logo -->
+										<img src="components/header/img/logo.svg"
+												 alt="logo"
+												 class="footer__content-header-logo">
+
+										<!-- Select -->
+										<div class="header__inner-select footer__content-header-select">
+												<div class="header__inner-select-text">
+														ENG
+												</div>
+												<img src="components/header/img/arrow-down.svg"
+														 alt="arrow-down"
+														 class="header__inner-select-img">
+										</div>
+
+										<!-- Social -->
+										<div class="header__inner-social footer__content-header-socialLinks">
+
+												<a href="#" class="header__inner-social-link">
+														<svg class="header__inner-social-link-svg"
+																 width="35"
+																 height="35"
+																 viewBox="0 0 35 35"
+																 fill="#19171D"
+																 xmlns="http://www.w3.org/2000/svg">
+																<circle cx="17.5" cy="17.5" r="17" stroke="#5F5F77" stroke-opacity="0.2"/>
+																<g clip-path="url(#clip0_70_357)">
+																		<path d="M24.977 11.4669C24.9703 11.3689 24.935 11.2751 24.8753 11.1972C24.8157 11.1192 24.7344 11.0605 24.6416 11.0284C24.5489 10.9963 24.4487 10.9922 24.3536 11.0167C24.2586 11.0411 24.1728 11.093 24.107 11.1659C23.7801 11.5326 23.3544 11.7975 22.881 11.9289C22.2426 11.3312 21.4005 10.999 20.526 10.9999C20.0613 11.0001 19.6011 11.0919 19.1718 11.27C18.7426 11.4481 18.3526 11.709 18.0241 12.0378C17.6957 12.3667 17.4352 12.7569 17.2576 13.1864C17.08 13.6159 16.9887 14.0761 16.989 14.5409V14.9809C13.998 14.7499 12.4 12.4769 11.967 11.3249C11.9329 11.2336 11.8729 11.1542 11.7943 11.0966C11.7158 11.039 11.6221 11.0055 11.5247 11.0004C11.4274 10.9953 11.3308 11.0188 11.2466 11.0679C11.1624 11.117 11.0944 11.1897 11.051 11.2769C10.004 13.3729 9.843 15.4069 10.604 17.1389C11.27 18.6559 12.61 19.8639 14.51 20.6649C13.647 21.2759 12.194 21.9999 10.5 21.9999C10.3926 21.9997 10.2881 22.0342 10.2018 22.0981C10.1155 22.162 10.0521 22.2519 10.0209 22.3547C9.98976 22.4574 9.99248 22.5674 10.0287 22.6685C10.0649 22.7696 10.1327 22.8563 10.222 22.9159C11.847 23.9999 13.55 23.9999 15.132 23.9999H15.18C20.041 23.9999 23.98 20.0539 23.98 15.1879V14.7089C24.343 14.3389 24.626 13.9619 24.8 13.4729C24.993 12.9269 25.032 12.2949 24.977 11.4669Z"
+																					fill="#5F5F77"/>
+																</g>
+																<defs>
+																		<clipPath id="clip0_70_357">
+																				<rect width="15" height="15" fill="white" transform="translate(10 10)"/>
+																		</clipPath>
+																</defs>
+														</svg>
+												</a>
+
+												<a href="#" class="header__inner-social-link">
+														<svg class="header__inner-social-link-svg"
+																 width="35"
+																 height="35"
+																 viewBox="0 0 35 35"
+																 fill="#19171D"
+																 xmlns="http://www.w3.org/2000/svg">
+																<circle cx="17.5" cy="17.5" r="17" stroke="#5F5F77" stroke-opacity="0.2"/>
+																<g clip-path="url(#clip0_70_361)">
+																		<path d="M10 17.5001C10.0001 16.038 10.4276 14.6079 11.2298 13.3856C12.032 12.1633 13.1739 11.2021 14.5152 10.6203C15.8564 10.0384 17.3385 9.86127 18.7791 10.1106C20.2197 10.36 21.5561 11.0249 22.6237 12.0237C23.6914 13.0226 24.4439 14.3116 24.7886 15.7324C25.1333 17.1533 25.0552 18.6438 24.5639 20.0209C24.0727 21.3979 23.1896 22.6013 22.0234 23.4831C20.8573 24.3649 19.4588 24.8866 18 24.9841V19.0001H20V18.0001H18V16.5001C18 16.1022 18.158 15.7207 18.4393 15.4394C18.7206 15.1581 19.1022 15.0001 19.5 15.0001H20V14.0001H19.5C18.837 14.0001 18.2011 14.2634 17.7322 14.7323C17.2634 15.2011 17 15.837 17 16.5001V18.0001H15V19.0001H17V24.9841C15.1015 24.8572 13.3223 24.0135 12.0225 22.624C10.7228 21.2344 9.99983 19.4027 10 17.5001Z"
+																					fill="#5F5F77"/>
+																</g>
+																<defs>
+																		<clipPath id="clip0_70_361">
+																				<rect width="15" height="15" fill="white" transform="translate(10 10)"/>
+																		</clipPath>
+																</defs>
+														</svg>
+
+												</a>
+
+												<a href="#" class="header__inner-social-link">
+														<svg class="header__inner-social-link-svg"
+																 width="35"
+																 height="35"
+																 viewBox="0 0 35 35"
+																 fill="#19171D"
+																 xmlns="http://www.w3.org/2000/svg">
+																<circle cx="17.5" cy="17.5" r="17" stroke="#5F5F77" stroke-opacity="0.2"/>
+																<g clip-path="url(#clip0_70_366)">
+																		<path d="M24.9929 11.582C25.0072 11.4961 24.9988 11.408 24.9686 11.3263C24.9383 11.2447 24.8873 11.1724 24.8205 11.1165C24.7538 11.0606 24.6736 11.0232 24.5879 11.0078C24.5022 10.9925 24.414 10.9998 24.3319 11.029L10.3319 16.029C10.2397 16.0619 10.1591 16.1212 10.1002 16.1995C10.0413 16.2778 10.0068 16.3717 10.0008 16.4695C9.99484 16.5673 10.0177 16.6647 10.0667 16.7496C10.1156 16.8345 10.1883 16.9031 10.2759 16.947L14.2759 18.947C14.3548 18.9864 14.4426 19.0044 14.5306 18.9989C14.6186 18.9935 14.7036 18.9649 14.7769 18.916L18.0969 16.702L16.1099 19.188C16.0667 19.2421 16.0352 19.3046 16.0174 19.3715C15.9995 19.4385 15.9958 19.5084 16.0065 19.5768C16.0171 19.6453 16.0418 19.7108 16.0791 19.7691C16.1163 19.8275 16.1653 19.8775 16.2229 19.916L22.2229 23.916C22.2924 23.9622 22.3724 23.9903 22.4555 23.9976C22.5386 24.005 22.6222 23.9915 22.6987 23.9583C22.7753 23.9251 22.8423 23.8733 22.8937 23.8076C22.9451 23.7418 22.9792 23.6643 22.9929 23.582L24.9929 11.582Z"
+																					fill="#5F5F77"/>
+																</g>
+																<defs>
+																		<clipPath id="clip0_70_366">
+																				<rect width="15" height="15" fill="white" transform="translate(10 10)"/>
+																		</clipPath>
+																</defs>
+														</svg>
+
+												</a>
+
+										</div>
+								</div>
+
+								<!-- Text -->
+								<div class="footer__content-text">
+										Samplename blockchain, providing scalable and secure solutions for real-world applications. To learn
+										more about our policies, click on <a href="#">Privacy Policy</a>
+								</div>
+
+								<!-- Copyright -->
+								<div class="footer__content-copyright">
+										© 2023 Samplename. Samplename coin NRE.
+										All Rights Reserved.
+								</div>
+
+						</div>
+
+						<!-- Links -->
+						<div class="footer__links">
+								<div class="footer__links-content">
+										<div class="footer__links-content-wrapper">
+
+												<!-- Links col -->
+												<div class="footer__links-content-wrapper-col">
+
+														<!-- Col header -->
+														<div class="footer__links-content-wrapper-col-header">
+																<img src="components/footer/img/curved-line.svg"
+																		 alt="line"
+																		 class="footer__links-content-wrapper-col-header-img">
+																<div class="footer__links-content-wrapper-col-header-text">
+																		PROJECT
+																</div>
+														</div>
+
+														<!-- Col body -->
+														<div class="footer__links-content-wrapper-col-body">
+																<a href="#"
+																	 class="footer__links-content-wrapper-col-body-link">
+																		Whitepaper
+																</a>
+																<a href="#"
+																	 class="footer__links-content-wrapper-col-body-link">
+																		Onepaper
+																</a>
+																<a href="#"
+																	 class="footer__links-content-wrapper-col-body-link">
+																		Roadmap
+																</a>
+																<a href="#"
+																	 class="footer__links-content-wrapper-col-body-link">
+																		Github
+																</a>
+														</div>
+												</div>
+
+												<!-- Links col -->
+												<div class="footer__links-content-wrapper-col">
+
+														<!-- Col header -->
+														<div class="footer__links-content-wrapper-col-header">
+																<img src="components/footer/img/curved-line.svg"
+																		 alt="line"
+																		 class="footer__links-content-wrapper-col-header-img">
+																<div class="footer__links-content-wrapper-col-header-text">
+																		SUPPORT
+																</div>
+														</div>
+
+														<!-- Col body -->
+														<div class="footer__links-content-wrapper-col-body">
+																<a href="#"
+																	 class="footer__links-content-wrapper-col-body-link">
+																		Telegram
+																</a>
+																<a href="#"
+																	 class="footer__links-content-wrapper-col-body-link">
+																		Form
+																</a>
+																<a href="#"
+																	 class="footer__links-content-wrapper-col-body-link">
+																		FAQ
+																</a>
+														</div>
+												</div>
+
+												<!-- Links col -->
+												<div class="footer__links-content-wrapper-col">
+
+														<!-- Col header -->
+														<div class="footer__links-content-wrapper-col-header">
+																<img src="components/footer/img/curved-line.svg"
+																		 alt="line"
+																		 class="footer__links-content-wrapper-col-header-img">
+																<div class="footer__links-content-wrapper-col-header-text">
+																		PARCITIPATE
+																</div>
+														</div>
+
+														<!-- Col body -->
+														<div class="footer__links-content-wrapper-col-body">
+																<a href="#"
+																	 class="footer__links-content-wrapper-col-body-link">
+																		Terms of Use
+																</a>
+																<a href="#"
+																	 class="footer__links-content-wrapper-col-body-link">
+																		Cookie Policy
+																</a>
+																<a href="#"
+																	 class="footer__links-content-wrapper-col-body-link">
+																		Privacy Policy
+																</a>
+														</div>
+												</div>
+
+										</div>
+								</div>
+						</div>
+				</div>
+
+				<div class="grid-row">
+						<div class="footer__endText">
+								A blockchain is a <a href="https://en.wikipedia.org/wiki/Distributed_ledger" target="_blank">distributed
+								ledger</a> with growing lists of <a href="https://en.wikipedia.org/wiki/Record_(computer_science)"
+																										target="_blank">records</a> (blocks) that are securely linked
+								together via <a href="https://en.wikipedia.org/wiki/Cryptographic_hash_function" target="_blank">cryptographic
+								hashes</a> .<a href="https://en.wikipedia.org/wiki/Blockchain#cite_note-fortune20160515-1"
+															 target="_blank">[1]</a><a
+										href="https://en.wikipedia.org/wiki/Blockchain#cite_note-nyt20160521-2" target="_blank">[2]</a><a
+										href="https://en.wikipedia.org/wiki/Blockchain#cite_note-te20151031-3" target="_blank">[3]</a><a
+										href="https://en.wikipedia.org/wiki/Blockchain#cite_note-cryptocurrencytech-4"
+										target="_blank">[4]</a> Each block contains a cryptographic hash of the previous block, a <a
+										href="https://en.wikipedia.org/wiki/Trusted_timestamping" target="_blank">timestamp</a> , and
+								transaction data (generally represented as a <a href="https://en.wikipedia.org/wiki/Merkle_tree"
+																																target="_blank">Merkle tree</a> , where <a
+										href="https://en.wikipedia.org/wiki/Node_(computer_science)" target="_blank">data nodes</a> are
+								represented by leaves). Since each block contains information about the previous block, they effectively
+								form a chain (compare <a href="https://en.wikipedia.org/wiki/Linked_list" target="_blank">linked
+								list</a> data structure), with each additional block linking to the.
+						</div>
+				</div>
+
+		</div>
+
+		<!-- Column image -->
+		<img src="components/footer/img/bg.png"
+				 alt="column"
+				 class="footer__columnBg">
+
+		<!-- Line -->
+		<img src="components/footer/img/bg-line.svg"
+				 alt="line"
+				 class="footer__bgLine">
+</footer>
+
+<!-- jQuery CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+				integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+				crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!--&lt;!&ndash; SlickSlider CDN &ndash;&gt;-->
+<!--<script src="-->
+<!--https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js-->
+<!--"></script>-->
+
+<!-- SlickSlider -->
+<script type="text/javascript" src="libs/slick-slider/slick/slick.min.js"></script>
+
+<!-- Bootstrap CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+				integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+				crossorigin="anonymous"></script>
+
+<!-- Global script -->
+<script src="assets/js/index.js"></script>
+
+<!-- Component scripts -->
+<script src="components/header/header.js"></script>
+<script src="components/footer/footer.js"></script>
+<script src="components/intro/intro.js"></script>
+
+
+</body>
+</html>

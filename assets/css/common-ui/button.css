@@ -1,0 +1,63 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  height: 50px;
+  text-transform: uppercase;
+  gap: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  background: linear-gradient(280deg, rgba(255, 205, 117, 0) 68.5%, rgba(255, 205, 117, 0.2) 68.51%, rgba(255, 205, 117, 0) 98.36%),linear-gradient(93.65deg, #BA9651 0%, #DEB161 51.04%, #D0A45B 100%);
+  border: none;
+  border-top: 1px solid rgba(255, 205, 117, 0.77);
+  transition: all .2s ease-in-out;
+  position: relative;
+  padding: 0 30px;
+}
+
+.btn__img {
+  position: relative;
+  z-index: 1;
+}
+
+.btn__text {
+  position: relative;
+  z-index: 1;
+}
+
+.btn__after {
+  position: absolute;
+  background: linear-gradient(280deg, rgba(255, 205, 117, 0) 68.34%, rgba(255, 205, 117, 0.2) 68.51%, rgba(255, 205, 117, 0) 98.36%), linear-gradient(93.65deg, #B18737 0%, #C99843 51.04%, #CC9B4B 99.99%, #D0A45B 100%);
+  border-top: 1px solid rgba(250, 197, 103, 0.77);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 4px;
+  opacity: 0;
+  transition: all .2s ease-in-out;
+  pointer-events: none;
+}
+
+.btn:hover .btn__after {
+  opacity: 1;
+}
+
+.btn:hover {
+  color: rgb(33, 37, 41);
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+  color: initial;
+  background-color: initial;
+  border-color: initial;
+}
+
+@media screen and (max-width: 1200px) {
+  .btn {
+    font-size: 12px;
+    padding: 0 20px;
+  }
+}

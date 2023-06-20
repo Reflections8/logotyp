@@ -1,0 +1,32 @@
+.form-email {
+  border: 1px solid #35323E;
+  border-radius: 6px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-email__input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: italic;
+  height: 100%;
+  width: 50%;
+  padding: 0 25px;
+}
+
+.form-email__input::placeholder {
+  color: #35323E;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 576px) {
+  .form-email__input {
+    padding: 0 5px;
+  }
+}

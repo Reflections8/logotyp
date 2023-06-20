@@ -1,0 +1,135 @@
+.pie {
+  padding: 50px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.grid-row__pie {
+  position: relative;
+  z-index: 1;
+}
+
+.grid-row__pie-bgLine--Left {
+  position: absolute;
+  left: -12%;
+  top: -10%;
+}
+
+.pie__info {
+  grid-column: 2/4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 48px;
+  padding-right: 48px;
+}
+
+.pie__info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 574px;
+  width: 100%;
+}
+
+.pie__info-list-item {
+  font-size: 20px;
+  color: #5F5F77;
+}
+
+.pie__info-list-item span {
+  font-weight: 500;
+}
+
+.pie__info-list-divider {
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(90deg, #CECED7 0%, rgba(95, 95, 119, 0) 100%);
+}
+
+.pie__info-form {
+  max-width: 584px;
+  width: 100%;
+  border-color: #D0D0D6;
+}
+
+.pie__info-form-input {
+  color: #5F5F77;
+}
+
+.pie__info-form-input::placeholder {
+  color: #D0D0D6;
+}
+
+.pie__imgWrapper {
+  grid-column: 4/6;
+  padding: 60px;
+  background: linear-gradient(270deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 89.72%);
+  border-radius: 2px;
+  transform: skew(-16deg, 0);
+  position: relative;
+  z-index: -1;
+}
+
+.pie__imgWrapper-img {
+  max-width: 100%;
+  transform: skew(16deg, 0);
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+  .pie__info {
+    gap: 24px;
+    grid-column: 1/4;
+  }
+
+  .pie__info-list-item {
+    font-size: 16px;
+  }
+
+  .pie__imgWrapper {
+    padding: 30px;
+    grid-column: 4/7;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+  .pie__info {
+    gap: 24px;
+    grid-column: 1/7;
+    grid-row: 1/2;
+    text-align: center;
+    align-items: center;
+    padding-right: 0;
+  }
+
+  .pie__imgWrapper {
+    grid-row: 2/3;
+    grid-column: 1/7;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .grid-row__pie-bgLine--Left {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+
+}
+
+@media screen and (max-width: 450px) {
+
+}

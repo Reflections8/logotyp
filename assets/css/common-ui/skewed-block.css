@@ -1,0 +1,60 @@
+.skewed-block {
+  position: relative;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 27px 0 37px 0;
+  gap: 20px;
+}
+
+.skewed-block:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background: linear-gradient(90deg, rgba(95, 95, 119, 0) 0%, #5F5F77 100%);
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  transform: skew(-16deg, 0);
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.skewed-block:hover::after {
+  opacity: 0.5;
+}
+
+.skewed-block-imgWrapper {
+  padding: 0 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-image:
+    linear-gradient(
+      to bottom,
+      rgba(95, 95, 119, 0),
+      rgba(85, 71, 75, 1)
+    ) 1 100%;
+  transform: skew(-16deg, 0);
+}
+
+.skewed-block-imgWrapper-img {
+  transform: skew(16deg, 0);
+}
+
+.skewed-block-textWrapper {
+  display: flex;
+  gap: 10px;
+  color: #9F9EAB;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .skewed-block-imgWrapper-img {
+    max-width: 40px;
+  }
+}

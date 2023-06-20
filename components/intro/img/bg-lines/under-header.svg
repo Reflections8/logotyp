@@ -1,0 +1,32 @@
+<svg width="300" height="1039" viewBox="0 0 300 1039" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line opacity="0.2" x1="299.171" y1="0.138283" x2="0.480504" y2="1038.01" stroke="url(#paint0_linear_116_8)"/>
+<line opacity="0.5" x1="292.299" y1="24.138" x2="259.171" y2="139.475" stroke="url(#paint1_linear_116_8)"/>
+<g filter="url(#filter0_f_116_8)">
+<path d="M258.69 65.5H257.568L257.251 66.5768L247.251 100.577L246.686 102.5H248.69H268.69H269.813L270.129 101.423L280.129 67.4232L280.695 65.5H278.69H258.69Z" stroke="url(#paint2_linear_116_8)" stroke-opacity="0.5" stroke-width="3"/>
+</g>
+<path d="M258.69 66H257.942L257.731 66.7178L247.731 100.718L247.354 102H248.69H268.69H269.439L269.65 101.282L279.65 67.2822L280.027 66H278.69H258.69Z" stroke="url(#paint3_linear_116_8)" stroke-width="2"/>
+<defs>
+<filter id="filter0_f_116_8" x="231.681" y="51" width="64.0188" height="66" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="6.5" result="effect1_foregroundBlur_116_8"/>
+</filter>
+<linearGradient id="paint0_linear_116_8" x1="195.843" y1="13.3803" x2="323.649" y2="995.769" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5F5F77"/>
+<stop offset="1" stop-color="#55474B" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint1_linear_116_8" x1="291.819" y1="24" x2="242.423" y2="31.4475" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFCD75" stop-opacity="0"/>
+<stop offset="0.510417" stop-color="#FFCD75" stop-opacity="0.99"/>
+<stop offset="1" stop-color="#FFCD75" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint2_linear_116_8" x1="284.69" y1="-79" x2="284.69" y2="101" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFCD75"/>
+<stop offset="1" stop-color="#D0A45B"/>
+</linearGradient>
+<linearGradient id="paint3_linear_116_8" x1="284.69" y1="67" x2="284.69" y2="101" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFCD75"/>
+<stop offset="1" stop-color="#D0A45B"/>
+</linearGradient>
+</defs>
+</svg>
